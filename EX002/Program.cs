@@ -2,13 +2,13 @@
 Console.Clear();
 
 Console.Write("Введите первое число: ");
-int numA = int.Parse(Console.ReadLine());
+int numA = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число: ");
-int numB = int.Parse(Console.ReadLine());
+int numB = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите третье число: ");
-int numC = int.Parse(Console.ReadLine());
+int numC = Convert.ToInt32(Console.ReadLine());
 
 int max = numA;
 
