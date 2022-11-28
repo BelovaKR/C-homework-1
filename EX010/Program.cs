@@ -21,9 +21,8 @@ while (num>=10000){
     
     break;
     }
-    else if (num1 != num5 && num2 != num4){
+    else
     Console.WriteLine($"Число {num} НЕ является палиндромом");
-    
     break;
-    }
+    
 }
